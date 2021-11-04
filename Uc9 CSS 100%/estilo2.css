@@ -19,25 +19,25 @@
 			}
 
 			#Consoles{
-				height: 250px;
+				height: 280px;
 				background: gray;
 				margin-bottom:2%;
 			}
 
 			#Jogos{
-				height: 250px;
+				height: 280px;
 				background: blue ;
 				margin-bottom:2%;
 			}
 
 			#Controles{
-				height: 250px;
+				height: 280px;
 				background: greenyellow ;
 				margin-bottom:2%;
 			}
 
 			#rodape{
-				height: 300px;
+				height: 390px;
 				background: darkred;
 				padding: 50px 50px 0;
 			}
@@ -86,4 +86,118 @@
 			#direit{
 				color: white;
 				float: right;
+			}
+
+			@media only screen and (max-device-width: 765px){
+
+				body{
+					background-image:url('imagens/Set.png');
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+					background-size: 100% 100%;
+				}
+	
+	
+				#cabecalho{
+					width: 900px;
+					margin: 0 auto;
+					margin-bottom:2%;
+				}
+	
+				#topo{
+					height: 100px;
+					background:transparent;
+					margin-bottom:2%;
+				}
+	
+				#Consoles{
+					height: 950px;
+					background: gray;
+					margin-bottom:2%;
+				}
+	
+				#Jogos{
+					height: 950px;
+					background: blue ;
+					margin-bottom:2%;
+				}
+	
+				#Controles{
+					height: 900px;
+					background: greenyellow ;
+					margin-bottom:2%;
+				}
+	
+				#rodape{
+					height: 390px;
+					background: darkred;
+					padding: 50px 50px 0;
+				}
+	
+				.videog{
+					float:left;
+					margin-left:8%;
+					width:335px;
+					height:370px;
+					margin-top:45px;
+				}
+	
+				.jogoo{
+					float:left;
+					margin-left:8%;
+					width:330px;
+					height:370px;
+					margin-top:45px;
+				}
+	
+				.acce{
+					float:left;
+					width:330px;
+					height:370px;
+					margin-top:15px;
+					margin-left: 79px;
+				}
+	
+				.sitero{
+				   width:8%;
+				   float:right;
+				   margin-right:15px;
+				}
+	
+				.sitero2{
+				   width:75px;
+				   float:right;
+				   margin-right:15px;
+				   height:70px;
+				}
+	
+				#info{
+					color: white;
+				}
+	
+				#direit{
+					color: white;
+					float: right;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			}

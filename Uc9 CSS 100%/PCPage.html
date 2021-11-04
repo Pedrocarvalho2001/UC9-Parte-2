@@ -1,160 +1,211 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Game Mania</title>
 
-	    <style type="text/css">
-			*{
-				margin: 0;
-				padding: 0;
-			}
-		</style>
+<head>
+	<meta charset="utf-8">
+	<title>Game Mania</title>
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="estilo.css">
 		<link rel="stylesheet" href="estilo2.css">
 
-			
-	      </head>
-	      <body>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+	<link rel="icon" href="imagens/letterg.ico">
+</head>
 
-			<div id="cabecalho">
-				<div id="topo">
-				<table>
-	  		<tr>
-	    	<td><img style="margin-left: 220px;
-			        margin-top:13px;"
-				    width="115px"
-				    height="85px" 
-					src='imagens/gamemania2.png'/></td>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark fundo-nav">
+		<a class="navbar-brand" href="#">
+			<img src="imagens/letterg.png" width="30" height="30" class="d-inlite-block align-top" alt="">
+			Game Mania
+		</a>
 
-		    <td><h1 style="margin-left:15px;
-			        color:red";
-			        >Game Mania</h1>
-		    
-			<h3 style="margin-left:15px;
-			color:white";>A maior loja de comercio de eletrônicos
-			<br> da região da grande São Paulo</h3></td> 
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+			aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Cadastro</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Entrar</a>
+						<a class="dropdown-item" href="formulario.html">Cadastre-se</a>
+					</div>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Promoções</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Produtos
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Consoles</a>
+						<a class="dropdown-item" href="PCPage.html">Computadores</a>
+						<a class="dropdown-item" href="#">Acessórios</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="NinPage.html">Nintendo</a>
+						<a class="dropdown-item" href="PSPage.html">Playstation</a>
+						<a class="dropdown-item" href="XboxPage.html">Xbox</a>
+						<a class="dropdown-item" href="#">Retro</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Quem Somos</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+			</form>
+		</div>
+	</nav>
+
+	<div id="cabecalho">
+		<div id="topo">
+			<table>
+				<tr>
+					<td>
+
+						<img style="margin-left:200px; margin-right: 10px;" width="140px" height="110px"
+							src='imagens/gamemania2.png' />
+					</td>
+
+					<td>
+						<h1 style="color:red" ;>
+							Game Mania</h1>
+
+						<h3 class="title">A maior loja de comercio de eletrônicos
+							<br> da região da grande São Paulo
+						</h3>
+					</td>
+
+				</tr>
+				</p>
 
 			</table>
-			</div>
+		</div>
 
-    <!--------------Gabinetes---------------->
 
-			<div id="Consoles">
+		<!--------------Gabinetes---------------->
+
+		<div id="Consoles">
 			<h2 style="color:white;
 		    	text-align:center;
 		    	">Gabinetes</h2><br>
 
-			<img src="imagens/gabi1.png"
-			class="videog">
+			<img src="imagens/gabi1.png" class="videog">
 
-			<img src="imagens/gabi2.png"
-			class="videog">
+			<img src="imagens/gabi2.png" class="videog">
 
-			<img src="imagens/gabi3.png"
-			class="videog">
+			<img src="imagens/gabi3.png" class="videog">
 
-			<img src="imagens/gabi4.png"
-			class="videog">
+			<img src="imagens/gabi4.png" class="videog">
 
 			</p>
-			</div>
+		</div>
 
-    <!--------------Jogos---------------->
+		<!--------------Jogos---------------->
 
-			<div id="Jogos">
+		<div id="Jogos">
 			<h2 style="color:white;
-		    	text-align:center;"
-			    >Jogos</h2><br>
+		    	text-align:center;">Jogos</h2><br>
 
-			<img src="imagens/jopc1.png"
-			class="jogoo">
+			<img src="imagens/jopc1.png" class="jogoo">
 
-			<img src="imagens/jopc2.png"
-			class="jogoo">
+			<img src="imagens/jopc2.png" class="jogoo">
 
-			<img src="imagens/jopc3.png"
-			class="jogoo">
+			<img src="imagens/jopc3.png" class="jogoo">
 
-			<img src="imagens/jopc4.png"
-			class="jogoo">
+			<img src="imagens/jopc4.png" class="jogoo">
 
 			</p>
-			</div>
+		</div>
 
 		<!--------------Acessórios---------------->
 
-			<div id="Controles">
-			<p><br>
+		<div id="Controles">
+			<p>
 			<h2 style="color:black;
-			    text-align:center;"
-			    >Acessorios</h2><br>
- 
-			<img src="imagens/aspc1.png"
-			class="acce">
+			    text-align:center;">Acessorios</h2><br>
 
-			<img src="imagens/aspc2.png"
-			class="acce">
+			<img src="imagens/aspc1.png" class="acce">
 
-			<img src="imagens/aspc3.png"
-			class="acce">
+			<img src="imagens/aspc2.png" class="acce">
+
+			<img src="imagens/aspc3.png" class="acce">
 
 			</p>
 
-			</div>
-
-    <!--------------Rodape---------------->
-
-	<div id="rodape">
-		<div class="row m-0">
-
-	   <figure style="margin-top: 10px;">
-	   <img src="imagens/what.png"
-	   class="sitero">
-
-	   <img src="imagens/book.png"
-	   class="sitero">
-
-	   <img src="imagens/twi.png"
-	   class="sitero">
-
-	   <img src="imagens/insta.png"
-	   class="sitero">
-
-	   <img src="imagens/email.png"
-	   class="sitero2">
-	   </figure> 
-
-			   <figure>
-
-				<img src="imagens/gamemania2.png" 
-				alt="logo-rodape" 
-				width="15%">
-
-				  </figure> 
-				  </div>  
-		  
-		  <div class="col-md-4">
-			<div id="info">
-			 
-		   <h3>Email:</h3>
-		   <p>GamemaniaSp@email.com</p><br>
-		   <h3>Endereço:</h3>
-		   <p>Rua Boa Vista/SP - 451</p><br>
-		   <h3>Telefone:</h3>
-		   <p>+55 (11) 9.4588-9852</p> 
-		   <h2 id="direit">
-		   Direitos Reservados</h2>
-
-			</div>
-		  </div>     
-	   
-	  </div>  
-	</footer>
-			</div>
-
 		</div>
 
-	</body>
+		<!--------------Rodape---------------->
+
+		<div id="rodape">
+			<div class="row m-0">
+
+				<figure>
+					<img src="imagens/what.png" class="sitero">
+
+					<img src="imagens/book.png" class="sitero">
+
+					<img src="imagens/twi.png" class="sitero">
+
+					<img src="imagens/insta.png" class="sitero">
+
+					<img src="imagens/email.png" class="sitero2">
+
+					<img src="imagens/gamemania2.png" style="margin-left: 35px;" float:left width="15%">
+
+				</figure>
+			</div>
+
+			<div class="col-md-4">
+				<div id="info">
+
+					<h3>Email:</h3>
+					<p>GamemaniaSp@email.com</p>
+					<h3>Endereço:</h3>
+					<p>Rua Boa Vista/SP - 451</p>
+					<h3>Telefone:</h3>
+					<p>+55 (11) 9.4588-9852</p>
+
+
+
+				</div>
+			</div>
+			<h2 id="direit">Direitos Reservados</h2>
+		</div>
+		</footer>
+	</div>
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+
+</body>
+
 </html>
+
 </html>

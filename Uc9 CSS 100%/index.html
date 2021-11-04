@@ -1,180 +1,222 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Game Mania</title>
 
-	  <style type="text/css">
-			*{
-				margin: 0;
-				padding: 0;
-			}</style>
+<head>
+	<meta charset="utf-8">
+	<title>Game Mania</title>
 
-	  <link rel="stylesheet" href="estilo.css">
-			
-	  </head>
-	  <body>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-			<div id="cabecalho">
-				<div id="topo">
-				<table>
-				<tr><td>
+	<link rel="stylesheet" href="estilo.css">
 
-				<img style="margin-left:80px;"  
-	    	 width="115px"
-	    	 height="85px"
-	    	 src='imagens/gamemania2.png'/></td>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+	<link rel="icon" href="imagens/letterg.ico">
+</head>
 
-			   <p style="float:right;
-		     margin-right:15px;
-			   color: greenyellow;">
-			   Entrar<br>
-		     Cadastre-se</p>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark fundo-nav">
+		<a class="navbar-brand" href="#">
+			<img src="imagens/letterg.png" width="30" height="30" class="d-inlite-block align-top" alt="">
+			Game Mania
+		</a>
 
-	    	<p><img src="imagens/search.jpg"
-	    		style="float:right;
-	    		width:100px;
-	    		height:25px;
-	    		margin-right:10px;
-	    		margin-top:7px;"></p>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+			aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-		    <td><h1 
-		    style="color:red";>
-		    Game Mania</h1>
-		    
-			  <h3 id="info">A maior loja de comercio de eletrônicos
-			  <br> da região da grande São Paulo</h3></td> 
+		<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Cadastro</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Entrar</a>
+						<a class="dropdown-item" href="formulario.html">Cadastre-se</a>
+					</div>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Promoções</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Produtos
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Consoles</a>
+						<a class="dropdown-item" href="PCPage.html">Computadores</a>
+						<a class="dropdown-item" href="#">Acessórios</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="NinPage.html">Nintendo</a>
+						<a class="dropdown-item" href="PSPage.html">Playstation</a>
+						<a class="dropdown-item" href="XboxPage.html">Xbox</a>
+						<a class="dropdown-item" href="#">Retro</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Quem Somos</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+			</form>
+		</div>
+	</nav>
 
-		    </tr></p>
+	<div id="cabecalho">
+		<div id="topo">
+			<table>
+				<tr>
+					<td>
 
-			  </table>
-			  </div>
+						<img style="margin-left:250px; margin-right: 10px;" width="115px" height="85px"
+							src='imagens/gamemania2.png' />
+					</td>
 
-  <!--------------Banner das Marcas---------------->
+					<td>
+						<h1 style="color:red" ;>
+							Game Mania</h1>
 
-			<div id="banner">
+						<h3 class="title">A maior loja de comercio de eletrônicos
+							<br> da região da grande São Paulo
+						</h3>
+					</td>
+
+				</tr>
+				</p>
+
+			</table>
+		</div>
+
+		<!--------------Banner das Marcas---------------->
+
+		<div id="banner">
 			<p>
 
-			<a href="NinPage.html";>
-			<img src="imagens/bign.png" 
-			class="marca"></a>
+				<a href="NinPage.html" ;>
+					<img src="imagens/bign.png" class="marca"></a>
 
-			<a href="PCPage.html";>
-			<img src="imagens/pc.png" 
-			class="marca"></a>
+				<a href="PCPage.html" ;>
+					<img src="imagens/pc.png" class="marca"></a>
 
-			<a href="PSPage.html";>
-			<img src="imagens/psn.png" 
-			class="marca"></a>
+				<a href="PSPage.html" ;>
+					<img src="imagens/psn.png" class="marca"></a>
 
-			<a href="XboxPage.html";>
-			<img src="imagens/xbox.png" 
-			class="marca"></a>
+				<a href="XboxPage.html" ;>
+					<img src="imagens/xbox.png" class="marca"></a>
 
-			<a href="#">
-			<img src="imagens/acce.png" 
-			class="marca"></a>
+				<a href="#">
+					<img src="imagens/acce.png" class="marca"></a>
 
 			</p>
+		</div>
+
+		<!--------------Avaliações dos usuarios---------------->
+
+		<div id="avaliações">
+			<div class="container">
+
+				<img src="imagens/user1.png" style="margin-left: 59px;">
+				<p style="color: white; font-size: 100%;">Loja com uma grande variedade de eletrônicos,
+					recomendadissima.</p>
+
+				<img src="imagens/user2.png" style="margin-left: 59px;">
+				<p style="color: white; font-size: 100%;">Loja com bom atendimento,porem não encontrei o produto que
+					procurava.</p>
+
+				<img src="imagens/user3.png" style="margin-left: 59px;">
+				<p style="color: white; font-size: 100%;">Recomendo,loja completa com uma variedade incontavel de
+					eletrônicos.</p>
+
 			</div>
+		</div>
 
-	<!--------------Avaliações dos usuarios---------------->
+		<!--------------Produtos Principais---------------->
 
-			<div id="avaliações">
-			<p>
-
-			<img src="imagens/user1.png"
-			class="rate">
-
-			<img src="imagens/user2.png"
-			class="rate">
-
-			<img src="imagens/user3.png"
-			class="rate">
-
-			</p>
-			</div>
-
-			<!--------------Produtos Principais---------------->
-
-			<div id="produtos">
+		<div id="produtos">
 			<p><br>
 
 			<h3 class="titpro">
-			Promoções da Semana</h3>
+				Promoções da Semana</h3>
 			<br>
 
 
-			<img src="imagens/pcgame.png"
-			class="product">
+			<img src="imagens/pcgame.png" class="product">
 
-			<img src="imagens/XsX.png"
-			class="product">
+			<img src="imagens/XsX.png" class="product">
 
-			<img src="imagens/ps5.png"
-			class="product">
+			<img src="imagens/ps5.png" class="product">
 
-			<img src="imagens/teclado.png"
-			class="product">
+			<img src="imagens/teclado.png" class="product">
 
-			<img src="imagens/ninswitch.png"
-			class="product">
+			<img src="imagens/ninswitch.png" class="product">
 			</p>
-				
-			</div>
-
-    <!---------------------Rodapé----------------------->
-
-			<div id="rodape">
-        <div class="row m-0">
-
-       <figure style="margin-top: 10px;">
-       <img src="imagens/what.png"
-       class="sitero">
-
-       <img src="imagens/book.png"
-       class="sitero">
-
-       <img src="imagens/twi.png"
-       class="sitero">
-
-       <img src="imagens/insta.png"
-       class="sitero">
-
-       <img src="imagens/email.png"
-       class="sitero2">
-       </figure> 
-
-			   <figure>
-
-			    <img src="imagens/gamemania2.png" 
-			    alt="logo-rodape" 
-			    width="15%">
-
-			      </figure> 
-			      </div>  
-          
-          <div class="col-md-4">
-            <div id="info">
-             
-           <h3>Email:</h3>
-           <p>GamemaniaSp@email.com</p><br>
-           <h3>Endereço:</h3>
-           <p>Rua Boa Vista/SP - 451</p><br>
-           <h3>Telefone:</h3>
-           <p>+55 (11) 9.4588-9852</p> 
-           <h2 id="direit">
-           Direitos Reservados</h2>
-
-            </div>
-          </div>     
-       
-      </div>  
-    </footer>
-			</div>
 
 		</div>
 
-	</body>
+		<!---------------------Rodapé----------------------->
+		
+		<div id="rodape">
+			<div class="row m-0">
+
+				<figure>
+					<img src="imagens/what.png" class="sitero">
+
+					<img src="imagens/book.png" class="sitero">
+
+					<img src="imagens/twi.png" class="sitero">
+
+					<img src="imagens/insta.png" class="sitero">
+
+					<img src="imagens/email.png" class="sitero2">
+
+					<img src="imagens/gamemania2.png" style="margin-left: 35px;" float:left width="15%">
+
+				</figure>
+			</div>
+
+			<div class="col-md-4">
+				<div id="info">
+
+					<h3>Email:</h3>
+					<p>GamemaniaSp@email.com</p>
+					<h3>Endereço:</h3>
+					<p>Rua Boa Vista/SP - 451</p>
+					<h3>Telefone:</h3>
+					<p>+55 (11) 9.4588-9852</p>
+
+				</div>
+			</div>
+			<h2 id="direit">Direitos Reservados</h2>
+		</div>
+		</footer>
+	</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+
+</body>
+
 </html>
+
 </html>
